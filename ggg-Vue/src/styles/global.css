@@ -1,0 +1,26 @@
+:root {
+  --ink: #05060c;
+  --gold: #e8c66b;
+  --cyan: #6fe9ff;
+  --purple: #3a2a6b;
+  --mist: rgba(160, 190, 230, 0.12);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'ZCOOL XiaoWei', 'STKaiti', 'KaiTi', '华文楷体', serif;
+  background: radial-gradient(120% 120% at 50% -10%, #1a1340 0%, #0a0a1c 40%, #05060c 100%);
+  color: #e9eefb;
+  overflow: hidden;
+  position: relative;
+}
